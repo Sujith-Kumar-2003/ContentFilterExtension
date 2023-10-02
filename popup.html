@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="English">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Content Filter</title>
+    <style>
+        body {
+            width: 200px;
+        }
+        h1 {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-
+<h1>Content Filter Settings</h1>
+<label>
+    <input type="checkbox" id="blockOffensive"> Block Offensive Content
+</label>
+<br>
+<label>
+    <input type="checkbox" id="blockSexual"> Block Sexual Content
+</label>
+<br>
+<button id="applyFilter">Apply Filter</button>
+<p id="status"></p>
+<script src="popup.js"></script>
 </body>
 </html>
