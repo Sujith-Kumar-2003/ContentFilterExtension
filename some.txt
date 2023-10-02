@@ -1,0 +1,17 @@
+Implement Content Filtering Logic:
+In your JavaScript code, implement the logic to block or hide offensive and
+sexual content on the current webpage. You may use DOM manipulation to
+hide or remove elements containing such content.
+
+Testing:
+Test your extension by loading it as an unpacked extension
+in Chrome. Go to chrome://extensions/, enable "Developer mode," and
+click "Load unpacked." Select your extension directory.
+
+Refinement and Improvement:
+Continuously refine and improve your extension's content filtering
+logic to make it more accurate and efficient.
+
+Publishing (Optional):
+If you want to make your extension available to others, you can
+publish it on the Chrome Web Store after thoroughly testing and refining it.
